@@ -1,6 +1,9 @@
 defmodule HelloWorld do
   @moduledoc """
-  Documentation for `ElixirIntro`.
+  Your first elixir function
+  What does this return?
+
+  $ HelloWorld.hello()
   """
   def hello do
     :world

@@ -17,9 +17,10 @@ defmodule SumTest do
 
   describe "recursive_mystery" do
     test "is a mystery" do
-      assert Sum.recursive_mystery([1, 2, 3]) == "123"
-      assert Sum.recursive_mystery(["p", "i", "e"]) == "pie"
-      assert Sum.recursive_mystery([]) == ""
+      # FIX ME
+      # assert Sum.recursive_mystery([1, 2, 3]) ==
+      # assert Sum.recursive_mystery(["p", "i", "e"]) ==
+      # assert Sum.recursive_mystery([]) ==
     end
   end
 end

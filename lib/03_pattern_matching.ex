@@ -1,6 +1,15 @@
 defmodule PatternMatching do
+  @moduledoc """
+  What do you notice about all these functions?
+
+  What would be the output of the following:
+
+  $ PatternMatching.categorize_user("Head of Cake")
+  $ PatternMatching.categorize_user("Salesperson")
+  $ PatternMatching.categorize_user("Chimney sweep")
+  """
   def categorize_user(nil) do
-    "Unknown"
+    nil
   end
 
   def categorize_user("Engineer") do

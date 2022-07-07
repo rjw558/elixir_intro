@@ -1,4 +1,13 @@
 defmodule Numbers do
+  @moduledoc """
+  Some more functions!
+
+  What would be the output of the following:
+
+  $ Numbers.square(4)
+  $ Numbers.square_all([2,3])
+  $ Numbers.celsius_to_farenheit("freezing")
+  """
   def square(n) do
     n * n
   end
